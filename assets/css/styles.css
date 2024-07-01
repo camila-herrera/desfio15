@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background-color:white;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: #ECECEC;
+    border: 2px inset rgba(128, 128, 128, 0.452);
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    gap: 10px;
+    justify-content: space-around;
+}
+.titulo{
+    display: flex;
+    justify-content: start;
+    border-bottom: 2px solid #B0B1B3;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#nuevatarea{
+    width: 400px;
+    height: 25px;
+}
+#agregarTarea{
+    background-color: #0075FF;
+    color: white;
+    border-radius: 8%;
+    border: none;
+    height: 25px;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cuenta-tareas{
+    width: 150px;
+    
+}
+.resultado{
+    width: 400px;
+    height: 150px;
+    justify-content: flex-end;
+}

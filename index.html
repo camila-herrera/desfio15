@@ -1,0 +1,44 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>metodos de arreglo</title>
+    <script src="https://kit.fontawesome.com/8082c38cb4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <section class="box">
+        <div class="titulo"> 
+            <h1>Todo List</h1>
+        </div>
+        <div class="prinipal">
+            <h3>Nueva tarea</h3>
+            <input id="nuevaTarea">
+            <button id="agregarTarea">Agregar</button>
+        </div>
+        <div class="pie">
+            <div class="cuenta-tareas">
+                <p id="cuenta-tareas-total">Total: 0</p>
+                <p id="cuenta-tareas-realizadas">Realizadas: 0</p>
+            </div>            
+            <div class="resultado">
+                <div>
+                    <table>
+                        <tr>
+                            <th>ID:</th>
+                            <th>....check</th>
+                            <th>...Descripcion</th>
+                            <th>...Eliminar</th>
+                        </tr>
+                    </table>
+                </div>
+                <div id="tareas"></div>
+            </div>  
+        </div>
+    </section>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
